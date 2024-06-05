@@ -1,0 +1,43 @@
+﻿  Assembling Main.asm...
+Main.asm(1): error A2008: syntax error : .
+Main.asm(2): error A2008: syntax error : .
+F:\masm32\include\windows.inc(9750): error A2008: syntax error : dword
+F:\masm32\include\windows.inc(10183): error A2008: syntax error : frame
+F:\masm32\include\windows.inc(16333): error A2008: syntax error : dword
+F:\masm32\include\windows.inc(18862): error A2008: syntax error : Frame
+F:\masm32\include\windows.inc(24749): error A2042: statement too complex
+F:\masm32\include\winextra.inc(11052): error A2026: constant expected
+F:\masm32\include\winextra.inc(11053): error A2026: constant expected
+Main.asm(28): error A2008: syntax error : invoke
+Main.asm(32): error A2008: syntax error : invoke
+Main.asm(33): error A2008: syntax error : ExitProcess
+Main.asm(45): error A2070: invalid instruction operands
+Main.asm(46): error A2070: invalid instruction operands
+Main.asm(50): error A2008: syntax error : invoke
+Main.asm(53): error A2008: syntax error : invoke
+Main.asm(55): error A2008: syntax error : invoke
+Main.asm(56): error A2008: syntax error : invoke
+Main.asm(70): error A2008: syntax error : invoke
+Main.asm(71): error A2008: syntax error : invoke
+Main.asm(72): error A2008: syntax error : invoke
+Main.asm(73): error A2008: syntax error : .
+Main.asm(74): error A2008: syntax error : invoke
+Main.asm(75): error A2044: invalid character in file
+Main.asm(76): error A2008: syntax error : invoke
+Main.asm(77): error A2008: syntax error : invoke
+Main.asm(78): error A2008: syntax error : .
+Main.asm(84): error A2008: syntax error : IF
+Main.asm(85): error A2008: syntax error : invoke
+Main.asm(86): error A2008: syntax error : .
+Main.asm(87): error A2008: syntax error : invoke
+Main.asm(89): error A2008: syntax error : .
+Main.asm(94): error A2008: syntax error : start
+Main.asm(81): warning A6004: procedure argument or local not referenced : hInst
+Main.asm(81): warning A6004: procedure argument or local not referenced : hPrevInst
+Main.asm(81): warning A6004: procedure argument or local not referenced : CmdLine
+Main.asm(81): warning A6004: procedure argument or local not referenced : CmdShow
+Main.asm(92): warning A6004: procedure argument or local not referenced : hWnd
+Main.asm(92): warning A6004: procedure argument or local not referenced : uMsg
+Main.asm(92): warning A6004: procedure argument or local not referenced : wParam
+Main.asm(92): warning A6004: procedure argument or local not referenced : lParam
+F:\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v150\BuildCustomizations\masm.targets(69,5): error MSB3721: 命令“ml64.exe /c /nologo /Zi /Fo"x64\Debug\Main.obj" /I "F:\masm32\include" /W3 /errorReport:prompt  /TaMain.asm”已退出，返回代码为 1。
