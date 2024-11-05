@@ -23,7 +23,7 @@
     <Text Include="V1.txt" />
   </ItemGroup>
   <ItemGroup>
-    <MASM Include="BigInteger.asm">
+    <MASM Include="Main(18).asm">
       <Filter>源文件</Filter>
     </MASM>
   </ItemGroup>

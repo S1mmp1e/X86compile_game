@@ -20,26 +20,26 @@ option casemap : none
 
 
 ; ================ 引用库部分 ================
-includelib msvcrt.lib
-include windows.inc
+includelib D:/masm32/lib/msvcrt.lib
+include D:/masm32/include/windows.inc
 
-includelib user32.lib
-include user32.inc
+includelib D:/masm32/lib/user32.lib
+include D:/masm32/include/user32.inc
 
-includelib kernel32.lib
-include kernel32.inc
+includelib D:/masm32/lib/kernel32.lib
+include D:/masm32/include/kernel32.inc
 
-includelib gdi32.lib
-include gdi32.inc
+includelib D:/masm32/lib/gdi32.lib
+include D:/masm32/include/gdi32.inc
 
-includelib Winmm.lib
-include Winmm.inc
+includelib D:/masm32/lib/Winmm.lib
+include D:/masm32/include/Winmm.inc
 
-includelib Advapi32.lib
-include Advapi32.inc
+includelib D:/masm32/lib/Advapi32.lib
+include D:/masm32/include/Advapi32.inc
 
-includelib Msimg32.lib
-include Msimg32.inc
+includelib D:/masm32/lib/Msimg32.lib
+include D:/masm32/include/Msimg32.inc
 
 
 ; ================ 引用函数部分 ================
