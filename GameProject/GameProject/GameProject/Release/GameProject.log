@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (GameProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Assembling Main(18).asm...
+Main(18).asm(1074): warning A6004: procedure argument or local not referenced : hwnd
+Main(18).asm(1283): warning A6004: procedure argument or local not referenced : hInst
+Main(18).asm(1283): warning A6004: procedure argument or local not referenced : hPrevInst
+Main(18).asm(1283): warning A6004: procedure argument or local not referenced : CmdLine
+Main(18).asm(1283): warning A6004: procedure argument or local not referenced : CmdShow
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+  GameProject.vcxproj -> C:\Users\13500\Desktop\GameProject\GameProject\Release\BIGNUMBERMUL.exe
+  GameProject.vcxproj -> C:\Users\13500\Desktop\GameProject\GameProject\Release\BIGNUMBERMUL.pdb (Full PDB)
